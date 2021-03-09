@@ -1,0 +1,118 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Thu Feb 25 16:54:08 2021
+| Host         : DESKTOP-TCT2VEG running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file controller_control_sets_placed.rpt
+| Design       : controller
+| Device       : xc7z020
+---------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    44 |
+| Unused register locations in slices containing registers |   146 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |            7 |
+|      4 |            2 |
+|      5 |            9 |
+|      6 |            1 |
+|      8 |            9 |
+|      9 |            1 |
+|     10 |            1 |
+|     12 |            2 |
+|     13 |            1 |
+|     15 |            1 |
+|    16+ |           10 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             125 |           52 |
+| No           | No                    | Yes                    |              15 |            7 |
+| No           | Yes                   | No                     |             128 |           36 |
+| Yes          | No                    | No                     |             168 |           65 |
+| Yes          | No                    | Yes                    |               5 |            2 |
+| Yes          | Yes                   | No                     |              37 |           11 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-----------------------+----------------------------------------------+--------------------------------------------+------------------+----------------+
+|      Clock Signal     |                 Enable Signal                |              Set/Reset Signal              | Slice Load Count | Bel Load Count |
++-----------------------+----------------------------------------------+--------------------------------------------+------------------+----------------+
+|  clk_IBUF_BUFG        | OLEDInit/temp_vdd0                           |                                            |                1 |              1 |
+|  clk_IBUF_BUFG        | OLEDInit/temp_vbat0                          |                                            |                1 |              1 |
+|  clk_IBUF_BUFG        | OLEDInit/temp_dc0                            |                                            |                1 |              1 |
+|  clk_IBUF_BUFG        | GetBtnD/low_sw_i_1__0_n_1                    |                                            |                1 |              1 |
+|  clk_IBUF_BUFG        | GetBtnL/low_sw_i_1__1_n_1                    |                                            |                1 |              1 |
+|  clk_IBUF_BUFG        | GetBtnR/low_sw_i_1__2_n_1                    |                                            |                1 |              1 |
+|  clk_IBUF_BUFG        | GetBtnU/eqOp                                 |                                            |                1 |              1 |
+|  clk_IBUF_BUFG        | OLEDDisplay/temp_sdata[5]_i_1_n_1            |                                            |                1 |              4 |
+|  clk_IBUF_BUFG        | OLEDDisplay/temp_sdata[5]_i_1_n_1            | OLEDDisplay/temp_sdata[7]_i_1_n_1          |                1 |              4 |
+|  clk_IBUF_BUFG        | OLEDDisplay/after_page_state                 |                                            |                3 |              5 |
+|  clk_IBUF_BUFG        | OLEDDisplay/g0_b0__1_n_1                     |                                            |                1 |              5 |
+|  clk_IBUF_BUFG        | OLEDInit/after_state0                        |                                            |                1 |              5 |
+|  clk_IBUF_BUFG        |                                              | OLEDDisplay/spi_com/counter                |                1 |              5 |
+|  clk_IBUF_BUFG        |                                              | OLEDInit/spi_com/counter                   |                1 |              5 |
+|  clk_IBUF_BUFG        | OLEDInit/spi_com/shift_counter[3]_i_1__0_n_1 |                                            |                2 |              5 |
+|  clk_IBUF_BUFG        | OLEDDisplay/delay_com/E[0]                   |                                            |                3 |              5 |
+|  clk_IBUF_BUFG        | OLEDDisplay/spi_com/shift_counter[3]_i_1_n_1 |                                            |                2 |              5 |
+|  clk_IBUF_BUFG        | OLEDInit/delay_com/E[0]                      | rst_IBUF                                   |                2 |              5 |
+|  leds_reg[5]_i_2_n_1  |                                              |                                            |                4 |              6 |
+|  data5_reg[7]_i_1_n_1 |                                              |                                            |                2 |              8 |
+|  data4_reg[7]_i_1_n_1 |                                              |                                            |                2 |              8 |
+|  clk_IBUF_BUFG        | OLEDDisplay/spi_com/shift_reg                |                                            |                3 |              8 |
+|  data2_reg[7]_i_1_n_1 |                                              |                                            |                2 |              8 |
+|  clk_IBUF_BUFG        | OLEDInit/spi_com/shift_reg                   |                                            |                2 |              8 |
+|  clk_IBUF_BUFG        | OLEDInit/sdata0                              |                                            |                1 |              8 |
+|  data0_reg[7]_i_2_n_1 |                                              |                                            |                4 |              8 |
+|  data1_reg[7]_i_1_n_1 |                                              |                                            |                2 |              8 |
+|  data3_reg[7]_i_1_n_1 |                                              |                                            |                2 |              8 |
+|  clk_IBUF_BUFG        | OLEDDisplay/present_screen[3,14]             | OLEDDisplay/present_screen[3,5][2]_i_1_n_1 |                4 |              9 |
+|  clk_IBUF_BUFG        | OLEDDisplay/g0_b0__2_n_1                     |                                            |                3 |             10 |
+|  clk_IBUF_BUFG        | OLEDDisplay/delay_com/eqOp                   | OLEDDisplay/delay_com/ms_counter           |                3 |             12 |
+|  clk_IBUF_BUFG        | OLEDInit/delay_com/eqOp                      | OLEDInit/delay_com/ms_counter              |                3 |             12 |
+|  clk_IBUF_BUFG        | OLEDDisplay/after_char_state                 |                                            |               10 |             13 |
+|  clk_IBUF_BUFG        |                                              | rst_IBUF                                   |                7 |             15 |
+|  clk_IBUF_BUFG        |                                              | OLEDInit/delay_com/clk_counter             |                5 |             17 |
+|  clk_IBUF_BUFG        |                                              | OLEDDisplay/delay_com/clk_counter          |                5 |             17 |
+|  num0_reg[7]_i_2_n_1  |                                              |                                            |               11 |             19 |
+|  clk_IBUF_BUFG        |                                              |                                            |               10 |             20 |
+|  clk_IBUF_BUFG        |                                              | GetBtnU/key_rst_an                         |                6 |             21 |
+|  clk_IBUF_BUFG        |                                              | GetBtnR/key_rst_an                         |                6 |             21 |
+|  clk_IBUF_BUFG        |                                              | GetBtnL/key_rst_an                         |                6 |             21 |
+|  clk_IBUF_BUFG        |                                              | GetBtnD/key_rst_an                         |                6 |             21 |
+|  n_0_830_BUFG         |                                              |                                            |               13 |             32 |
+|  clk_IBUF_BUFG        | OLEDDisplay/present_screen[3,14]             |                                            |               26 |             80 |
++-----------------------+----------------------------------------------+--------------------------------------------+------------------+----------------+
+
+

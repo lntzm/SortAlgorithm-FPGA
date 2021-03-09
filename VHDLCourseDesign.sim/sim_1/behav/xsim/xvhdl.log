@@ -1,0 +1,8 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/program/vivadoProjects/VHDLCourseDesign/VHDLCourseDesign.srcs/sources_1/new/comparer_B.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'comparer_B'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/program/vivadoProjects/VHDLCourseDesign/VHDLCourseDesign.srcs/sources_1/new/controller.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'controller'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/program/vivadoProjects/VHDLCourseDesign/VHDLCourseDesign.srcs/sources_1/new/min_chose_4_2_C.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'min_chose_4_2_C'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/program/vivadoProjects/VHDLCourseDesign/VHDLCourseDesign.srcs/sources_1/new/min_secmin_C.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'min_secmin_C'

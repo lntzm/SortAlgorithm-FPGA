@@ -1,0 +1,17 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../VHDLCourseDesign.srcs/sources_1/new/OLED_init.vhd" \
+"../../../../VHDLCourseDesign.srcs/sources_1/new/OLED_show.vhd" \
+"../../../../VHDLCourseDesign.srcs/sources_1/new/ascii_memory.vhd" \
+"../../../../VHDLCourseDesign.srcs/sources_1/new/comparer_B.vhd" \
+"../../../../VHDLCourseDesign.srcs/sources_1/new/controller.vhd" \
+"../../../../VHDLCourseDesign.srcs/sources_1/new/debounce.vhd" \
+"../../../../VHDLCourseDesign.srcs/sources_1/new/delay.vhd" \
+"../../../../VHDLCourseDesign.srcs/sources_1/new/min_chose_4_2_C.vhd" \
+"../../../../VHDLCourseDesign.srcs/sources_1/new/min_secmin_C.vhd" \
+"../../../../VHDLCourseDesign.srcs/sources_1/new/sort_A.vhd" \
+"../../../../VHDLCourseDesign.srcs/sources_1/new/spi_ctrl.vhd" \
+"../../../../VHDLCourseDesign.srcs/sim_1/new/testbench.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,17 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+D:/program/vivadoProjects/VHDLCourseDesign/VHDLCourseDesign.srcs/sim_1/new/testbench.vhd,1611838060,vhdl,,,,testbench,,,,,,,,
+D:/program/vivadoProjects/VHDLCourseDesign/VHDLCourseDesign.srcs/sources_1/new/OLED_init.vhd,1611837514,vhdl,,,,oled_init,,,,,,,,
+D:/program/vivadoProjects/VHDLCourseDesign/VHDLCourseDesign.srcs/sources_1/new/OLED_show.vhd,1611837692,vhdl,,,,oled_show,,,,,,,,
+D:/program/vivadoProjects/VHDLCourseDesign/VHDLCourseDesign.srcs/sources_1/new/ascii_memory.vhd,1611837389,vhdl,,,,ascii_memory,,,,,,,,
+D:/program/vivadoProjects/VHDLCourseDesign/VHDLCourseDesign.srcs/sources_1/new/comparer_B.vhd,1614240001,vhdl,,,,comparer_b,,,,,,,,
+D:/program/vivadoProjects/VHDLCourseDesign/VHDLCourseDesign.srcs/sources_1/new/controller.vhd,1614241742,vhdl,,,,controller,,,,,,,,
+D:/program/vivadoProjects/VHDLCourseDesign/VHDLCourseDesign.srcs/sources_1/new/debounce.vhd,1611836860,vhdl,,,,debounce,,,,,,,,
+D:/program/vivadoProjects/VHDLCourseDesign/VHDLCourseDesign.srcs/sources_1/new/delay.vhd,1611837288,vhdl,,,,delay,,,,,,,,
+D:/program/vivadoProjects/VHDLCourseDesign/VHDLCourseDesign.srcs/sources_1/new/min_chose_4_2_C.vhd,1614240352,vhdl,,,,min_chose_4_2_c,,,,,,,,
+D:/program/vivadoProjects/VHDLCourseDesign/VHDLCourseDesign.srcs/sources_1/new/min_secmin_A.vhd,1611836554,vhdl,,,,min_secmin_a,,,,,,,,
+D:/program/vivadoProjects/VHDLCourseDesign/VHDLCourseDesign.srcs/sources_1/new/min_secmin_C.vhd,1614240320,vhdl,,,,min_secmin_c,,,,,,,,
+D:/program/vivadoProjects/VHDLCourseDesign/VHDLCourseDesign.srcs/sources_1/new/sort_A.vhd,1611836783,vhdl,,,,sort_a,,,,,,,,
+D:/program/vivadoProjects/VHDLCourseDesign/VHDLCourseDesign.srcs/sources_1/new/spi_ctrl.vhd,1611837239,vhdl,,,,spi_ctrl,,,,,,,,
